@@ -1,7 +1,3 @@
----
-title: "MIQTL Process Scan Results"
-output: html_document
----
 ### Processing Scan Results
 Now that you have run the scans, you can either process the scan results on the CU server or copy the scan results from the CU server to a folder on your local machine using FileZilla, rsync, or some other ftp program.  The downside to running it on the CU server is that you can't directly view the .png files in linux.  To view them you will either have to either use a VNC, which provides a graphical interface, or run the code and then upload your .png files to your local machine for viewing. The downside to running them locally is that the genomecache directory will take a long time to copy over to your local machine.
 
@@ -96,3 +92,5 @@ png(file=paste(fn,chr,peak.locus,"VarianceExp.png",sep="."))
 plot_varexp.ci(inla.diploffect.summary, add.numbers=TRUE)
 dev.off()
 ```
+
+Next step [run miqtl tutorial](https://github.com/Sethupathy-Lab/MIQTL/blob/master/Miqtl.Tutorial.Rmd)
