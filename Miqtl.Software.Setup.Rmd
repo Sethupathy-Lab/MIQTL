@@ -87,3 +87,6 @@ install_github("gkeele/Diploffect.INLA")
 ```
 OR from the master...  
 Follow the instructions for installing from the master on the CU servers but leave off the lib="~/R_libs" part of the commands.
+
+
+Next step [create genome cache](https://github.com/Sethupathy-Lab/MIQTL/blob/master/Miqtl.CreateGenomeCache.Rmd)
