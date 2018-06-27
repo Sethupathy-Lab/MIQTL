@@ -9,3 +9,4 @@ There are also several "setup" steps which must be completed before running miqt
 3) Run the scans
 4) Process the scan data
 
+[Start here](https://github.com/Sethupathy-Lab/MIQTL/blob/master/Miqtl.SoftwareSetup.Rmd)
