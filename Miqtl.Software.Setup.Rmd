@@ -1,7 +1,4 @@
----
-title: "MIQTL Software Setup"
-output: html_document
----
+
 ## 1) Acquiring/Setting up the software on the CU server
 
 ### WARNINGS:  
