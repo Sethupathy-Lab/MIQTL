@@ -1,7 +1,3 @@
----
-title: "MIQTL Run Scans"
-output: html_document
----
 Running the scans should be done on a CU server as the code takes a lot of time and memory to run.  The code requires the DO data from R/qtl2, and that the genome cache has been constructed. It is prudent to save all the objects created in this code for reuse later or in case of failure of a particular step.  In case of a failure, objects from all the steps prior to the failed step can be loaded rather than recreated.  Several steps require quite a bit of time so being able to reload an object rather than recreate it can save lots of headache. 
 
 You will need to create a file like the one below for each phenotype in your do$pheno.  Once the kinship data has been created and saved for one phenotype, it can be loaded and reused for the remaining phenotypes rather than recreating it for each phenotype.  All other objects will be phenotype specific.
@@ -131,3 +127,5 @@ Once you have your R scripts for each phenotype created, you can run them using 
 # on the command line from within a folder in /workdir on a CU workstation.
 nohup Rscript ppi6.miqtl.R &
 ```
+
+Next step [process scan results](https://github.com/Sethupathy-Lab/MIQTL/blob/master/Miqtl.ProcessScanResults.Rmd)
