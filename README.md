@@ -1,7 +1,4 @@
----
-title: "README"
-output: html_document
----
+
 [Miqtl ](https://github.com/gkeele/miqtl) was authored by Greg Keele, formerly of UNC, and now a member of the Churchill Lab at The Jackson Laboratory.  At this time, there is no public tutorial for the program.  The only documentation can be found in the man section of the GitHub page above. 
 
 As with R/qtl2, there is no Bioconductor package for miqtl, so all software must be installed manually.
