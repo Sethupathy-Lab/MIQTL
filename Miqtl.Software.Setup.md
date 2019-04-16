@@ -40,7 +40,6 @@ chmod 755 `/R_libs/*
 # install the package in your local repository
 library(devtools)
 install_github("gkeele/miqtl", lib="~/R_libs")
-# Not current, run next line: install.packages("INLA", repos="https://www.math.ntnu.no/inla/R/stable", lib="~/R_libs")
 install.packages("INLA", repos=c(getOption("repos"), INLA="https://inla.r-inla-download.org/R/testing"), dep=TRUE)
 install_github("gkeele/Diploffect.INLA", lib="~/R_libs")
 ```
@@ -83,7 +82,7 @@ Open RStudio
 ```
 library(devtools)
 install_github("gkeele/miqtl")
-install.packages("INLA", repos="https://www.math.ntnu.no/inla/R/stable")
+install.packages("INLA", repos=c(getOption("repos"), INLA="https://inla.r-inla-download.org/R/testing"), dep=TRUE)
 install_github("gkeele/Diploffect.INLA")
 ```
 OR from the master...  
