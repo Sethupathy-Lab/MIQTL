@@ -40,7 +40,8 @@ chmod 755 `/R_libs/*
 # install the package in your local repository
 library(devtools)
 install_github("gkeele/miqtl", lib="~/R_libs")
-install.packages("INLA", repos="https://www.math.ntnu.no/inla/R/stable", lib="~/R_libs")
+# Not current, run next line: install.packages("INLA", repos="https://www.math.ntnu.no/inla/R/stable", lib="~/R_libs")
+install.packages("INLA", repos=c(getOption("repos"), INLA="https://inla.r-inla-download.org/R/testing"), dep=TRUE)
 install_github("gkeele/Diploffect.INLA", lib="~/R_libs")
 ```
 This should install miqtl and all it's dependencies.  If you are prompted to install dependencies during the install process, answer yes.
@@ -89,4 +90,4 @@ OR from the master...
 Follow the instructions for installing from the master on the CU servers but leave off the lib="~/R_libs" part of the commands.
 
 
-Next step [create genome cache](https://github.com/Sethupathy-Lab/MIQTL/blob/master/Miqtl.CreateGenomeCache.Rmd)
+Next step [create genome cache](https://github.com/Sethupathy-Lab/MIQTL/blob/master/Miqtl.CreateGenomeCache.md)
