@@ -5,7 +5,7 @@ All the files needed to run it are contained in the miqtl_tutorial folder.
 There is also a folder in miqtl_tutorial called tutorial_results which contains all of the output that will be generated from this tutorial.  You can compare your results with it for confirmation that everything worked fine.
 
 
-Assuming you have installed all the required software as directed [here](https://github.com/Sethupathy-Lab/MIQTL/blob/master/Miqtl.Software.Setup.Rmd)
+Assuming you have installed all the required software as directed [here](https://github.com/Sethupathy-Lab/MIQTL/blob/master/Miqtl.Software.Setup.md)
 
 Run the tutorial...  
 # make a reservation on a workstation  
