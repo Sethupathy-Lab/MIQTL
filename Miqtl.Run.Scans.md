@@ -16,7 +16,7 @@ save(k,file="Kinship.Rdata")
 #load("Kinship.Rdata")
 
 # Scans
-ppi6.MI11.scan <- scan.h2lmm(genomecache="./genomecache/", data=pheno.data, formula=ppi6~1, K=k, use.multi.impute=TRUE, 
+ppi6.MI11.scan <- scan.h2lmm(genomecache="./genomecache/", data=pheno.data, formula=ppi6.boxcox~1, K=k, use.multi.impute=TRUE, 
 	num.imp=11, use.fix.par=TRUE, print.locus.fit=TRUE)
 save(ppi6.MI11.scan, file="ppi6.MI11.scan.Rdata")
 
