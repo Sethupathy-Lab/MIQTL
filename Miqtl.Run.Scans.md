@@ -128,4 +128,4 @@ Once you have your R scripts for each phenotype created, you can run them using 
 nohup Rscript ppi6.miqtl.R &
 ```
 
-Next step [process scan results](https://github.com/Sethupathy-Lab/MIQTL/blob/master/Miqtl.ProcessScanResults.Rmd)
+Next step [process scan results](https://github.com/Sethupathy-Lab/MIQTL/blob/master/Miqtl.ProcessScanResults.md)
