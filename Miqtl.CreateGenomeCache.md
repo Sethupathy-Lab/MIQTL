@@ -21,4 +21,4 @@ convert.qtl2.to.HAPPY(qtl2.object=pr,
 
 You will now have a directory called genomecache in the current working directory.
 
-Next step [run scans](https://github.com/Sethupathy-Lab/MIQTL/blob/master/Miqtl.Run.Scans.Rmd)
+Next step [run scans](https://github.com/Sethupathy-Lab/MIQTL/blob/master/Miqtl.Run.Scans.md)
