@@ -93,4 +93,4 @@ plot_varexp.ci(inla.diploffect.summary, add.numbers=TRUE)
 dev.off()
 ```
 
-Next step [run miqtl tutorial](https://github.com/Sethupathy-Lab/MIQTL/blob/master/Miqtl.Tutorial.Rmd)
+Next step [run miqtl tutorial](https://github.com/Sethupathy-Lab/MIQTL/blob/master/Miqtl.Tutorial.md)
